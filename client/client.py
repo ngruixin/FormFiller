@@ -18,6 +18,7 @@ class client():
     def __init__( self, host ):
         self.host = host
         # start session that does not verify ssl certificate (localhost self-signed)
+        # remove if not localhost server
         requests.packages.urllib3.disable_warnings()
         self.session = requests.Session()
         self.session.verify = False
