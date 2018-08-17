@@ -5,17 +5,20 @@ Implements a server and client architecture whereby a client may create a user a
 Default server runs on localhost:8080. Configurations may be changed in ./server/server.py
 
 Initialize the server by running:
+
 ```./setup.sh```
 
 Run the server using the command: 
+
 ```python3 server.py```
 
 ## Client 
 
 Run the client using the command:
+
 ```python3 client.py [server ip] [server port]```
 
-Supported commands: 
+### Supported commands: 
 
 `/adduser [username] [password]`:		Adds a user to the current system <br />
 
