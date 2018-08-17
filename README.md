@@ -1,7 +1,7 @@
 # FormFiller
 Implements a server and client architecture whereby a client may create a user and store sensitive encrypted data, which may be used to automate the filling of forms. 
 
-# Server 
+## Server 
 Default server runs on localhost:8080. Configurations may be changed in ./server/server.py
 
 Initialize the server by running:
@@ -10,12 +10,13 @@ Initialize the server by running:
 Run the server using the command: 
 ```python3 server.py```
 
-# Client 
+## Client 
 
 Run the client using the command:
 ```python3 client.py [server ip] [server port]```
 
 Supported commands: 
+
 `/adduser [username] [password]`:		Adds a user to the current system <br />
 
 `/login [username] [password]`:      	Attempts to login with username and password <br />
