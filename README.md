@@ -32,4 +32,4 @@ Run the client using the command:
 
 `/fill [input.pdf] [output.pdf]`:		Fills @input.pdf with the user's data and generates @output.pdf with all possible form fields filled. Input and output may be paths.<br />
 
-`/help `                             	Prints help message. <br />
+`/help `:                             	Prints help message. <br />
