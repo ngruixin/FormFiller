@@ -17,13 +17,15 @@ Run the client using the command:
 
 Supported commands: 
 `/adduser [username] [password]`:		Adds a user to the current system <br />
+
 `/login [username] [password]`:      	Attempts to login with username and password <br />
+
 `/getdata`:                           	Gets all data of the currently logged-in user<br />
+
 `/deldata`:                          	Deletes all data of the currently logged-in user<br />
-`/add "[key]" "[value]"`:     	        Adds the key-value pair to the data of the user,<br />
-							            which is used to fill in form fields<br />
-                						e.g. /add "First name" "John"<br />
-`/fill [input.pdf] [output.pdf]`:		Fills @input.pdf with the user's data and generates<br />
-										@output.pdf with all possible form fields filled<br />
-										Input and output may be paths<br />
+
+`/add "[key]" "[value]"`:     	        Adds the key-value pair to the data of the user, which is used to fill in form fields (e.g. /add "First name" "John")<br />
+
+`/fill [input.pdf] [output.pdf]`:		Fills @input.pdf with the user's data and generates @output.pdf with all possible form fields filled. Input and output may be paths<br />
+
 `/help `                             	Prints help message <br />
