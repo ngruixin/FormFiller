@@ -12,6 +12,7 @@ Run the server using the command:
 
 ```python3 server.py```
 
+
 ## Client 
 
 Run the client using the command:
@@ -33,3 +34,12 @@ Run the client using the command:
 `/fill [input.pdf] [output.pdf]`:		Fills @input.pdf with the user's data and generates @output.pdf with all possible form fields filled. Input and output may be paths.<br />
 
 `/help `:                             	Prints help message. <br />
+
+
+## Requirements
+
+1. Install the pdftk executable [here] (https://www.pdflabs.com/tools/pdftk-server/), and set the `PDFTK_PATH` accordingly in ./Util/my-pdftk.py
+2. Install pycrypto 
+```pip3 install pycrypto ```
+3. Install requests 
+```pip3 install requests```
