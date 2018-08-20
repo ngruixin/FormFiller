@@ -38,7 +38,7 @@ Run the client using the command:
 
 ## Requirements
 
-1. Install the pdftk executable [here] (https://www.pdflabs.com/tools/pdftk-server/), and set the `PDFTK_PATH` accordingly in ./Util/my-pdftk.py
+1. Install the pdftk executable from https://www.pdflabs.com/tools/pdftk-server/, and set the `PDFTK_PATH` accordingly in ./Util/my-pdftk.py
 2. Install pycrypto <br />
 ```pip3 install pycrypto ```
 3. Install requests <br />
